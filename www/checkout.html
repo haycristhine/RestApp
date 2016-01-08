@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="lib/jquery.min.js"></script>
+        <script type="text/javascript" src="js/checkout.js"></script>
+        <script src="lib/jquery-mobile.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <title>RestService</title>
+    </head>
+    <body onload="init()">
+        <div id="header" class="header">
+            <h1 id="tablename"></h1>
+        </div>
+        <div id="header2">
+            <h2>Resumo de pedidos</h2>
+        </div>
+        
+        <div id="wrapper" style="bottom: 107px;">
+            <ul id="ordersList" class="checkout-list">
+            </ul>
+        </div>
+        
+        
+        
+         <div id="footer-checkout">
+            <div id="total">
+                <p>Total:<spam id="labeltotal"></spam></p>
+            </div>
+            <div id="btnCheckout" style="width:100%;padding-bottom:14px;" class="button">Fazer Checkout</div> 
+        </div>
+    </body>
+</html>
